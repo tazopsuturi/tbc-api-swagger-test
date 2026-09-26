@@ -79,11 +79,6 @@ src/test/resources
 Step classes, hooks, `TestContext` and the API clients are all wired by constructor injection
 (cucumber-picocontainer), with a fresh instance of each per scenario.
 
-## CI
-
-`.github/workflows/api-tests.yml` runs the suite on pushes to `main` and on pull requests. It can also be
-started manually with an optional tag expression. Allure results and the Cucumber/Surefire reports are
-uploaded as the `test-reports` artifact.
 
 ## Notes on the public Petstore
 
